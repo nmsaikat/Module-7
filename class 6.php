@@ -2,8 +2,8 @@
 $student = array (
     'fname' => 'NM',
     'lname' => 'Saikat',
-    'age' => '24',
-    'Class' => '12',
+    'age' => 24,
+    'Class' => 12,
     'section' => 'A',
 );
 
