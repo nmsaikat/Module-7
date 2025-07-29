@@ -18,3 +18,7 @@ printf("%s %s \n", $student['fname'], $student['lname']);
 $serialized = serialize($student);
 
 $newstudent = unserialize($serialized);
+echo "\n";
+
+$jsondata = json_encode($student);
+echo $jsondata;
