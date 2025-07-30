@@ -14,3 +14,10 @@ $emp = [
       [3,"Mohan","Computer Operator",12000],
       [4,"Amir","Driver",5000]
 ];
+
+echo "<table border ='1px'>";
+foreach($emp as list($id, $name, $designation, $salary)) {
+    echo "<tr><td>$id $name $designation $salary</td></tr>";
+}
+
+echo "</table>";
