@@ -24,4 +24,12 @@
 // ];
 
 // echo $students ['12k'];
+$food = array ('orange', 'banana', 'apple');
+
+if (in_array('apple', $food)){
+    echo "Find Sucessfully";
+}else {
+    echo "Can't Find";
+}
+
 
